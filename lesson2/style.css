@@ -1,0 +1,40 @@
+body {
+    font-family: 'Roboto', Arial, sans-serif;
+    display: grid;
+    grid-template-columns: minmax(100px, 200px), 1fr, minmax(100px, 200px);
+    display: fixed;
+}
+
+.big-box, footer {
+    grid-column: 2;
+}
+
+#title-box {
+    text-align: center;
+    background-color: rgb(49, 57, 119);
+    padding: 5%;
+    color: aliceblue;
+}
+
+#principles-box {
+    display: grid;
+    grid-template-columns: repeat(3, 33.33%);
+    padding: 1%;    
+}
+
+#first-principle-box, #second-principle-box, #third-principle-box {
+    padding: 5%;
+    margin: 2%;
+    border-radius: 5%;
+    border: 1px solid rgb(49, 57, 119);
+}
+
+footer {
+    text-align: center;
+    background-color:  rgb(49, 57, 119); 
+    color: aliceblue;   
+}
+
+.test {
+    grid-column: 3;
+}
