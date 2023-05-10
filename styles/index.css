@@ -21,7 +21,7 @@ main {
 }
 
 header {
-    height: 200px;
+    
     display: flex;
     align-items: center;
     justify-content: center;
@@ -57,12 +57,10 @@ body {
 }
 
 h1 {
-    font-size: 50px;
+    font-size: 40px;
     font-family: 'Libre Baskerville', serif;
     font-weight: 500;
-    margin: 2px;
     text-align: center;
-    line-height: 200px;
 }
 
 h2 {
@@ -80,10 +78,10 @@ img {
     height: auto;
     float: left;
     flex: 0 0 auto;
+    border-radius: 25%;
 }
 
 footer {
-
     font-size: 20px;
     font-family: 'Century Gothic';
     font-weight: 500;
