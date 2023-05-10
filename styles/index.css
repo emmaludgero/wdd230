@@ -5,7 +5,7 @@
     text-decoration: none;
 }
 
-div.assignments {
+main {
     color: var(--main);
     font-size: 20px;
     font-family: 'Century Gothic';
@@ -14,11 +14,9 @@ div.assignments {
     display: block;
 }
 
-.assignments {
-    clear: both;
-}
 
-.wrapper {
+
+header {
     height: 200px;
     display: flex;
     align-items: center;
@@ -45,8 +43,8 @@ html {
 body {
     background-color: #cadfe2;
     height: 100vh;
-    overflow-y: hidden;
     padding-left: 20%;
+    flex-wrap: initial;
 }
 
 h1 {

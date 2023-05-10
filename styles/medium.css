@@ -13,7 +13,7 @@
     }
 }
 
-@media only screen and (max-width: 32.5em) { /* 32.5em equivale a 520 px*/
+@media only screen and (max-width: 37em) { /* 32.5em equivale a 520 px*/
     h1, h2 {
         font-size: 20px;
     }
