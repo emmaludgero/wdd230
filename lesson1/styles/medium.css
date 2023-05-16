@@ -6,10 +6,13 @@
 
 @media screen and (max-width: 980px) {
     h1, h2 {
-        font-size: 17px;
+        font-size: 20   px;
     }
     html {
         display: flex;
+        justify-content: center;
+        align-items: center;
+        max-width: 90%;
     }
     img {
         width: 50px;

@@ -25,6 +25,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
+    height: auto;
 }
 
 header, footer {
@@ -41,13 +42,10 @@ html {
 }
 
 :root {
-    /* --main: #1D5066;
-    --ascent: #cadfe2;
-    --btn:#d3f1f3; */
     --main: #1e1925;
     --ascent: #222E42;
     --btn:#e6e6e6;
-  }
+}
 
 body {
     background-color: var(--btn);
@@ -73,6 +71,8 @@ h2 {
 
 img {
     width: 100px;
+    max-width: 100%;
+    height: auto;
     position: relative;
     padding: 5%;
     height: auto;
