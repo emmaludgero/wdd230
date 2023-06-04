@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lazy load page</title>
+    <link rel="stylesheet" href="styles/lazyload.css">
+</head>
+<body>
+    <header>
+        <h1>Lazy Load Page - NASA Images</h1>  
+    </header>
+    <main class="images">
+        <img src="images/placeholder.jpg" data-src="images/M101.jpg" alt="Messier 101" loading="lazy">
+        <img src="images/placeholder.jpg" data-src="images/turquoiseWonderland.png" alt="Milky Way over a Turquoise Wonderland" loading="lazy">
+        <img src="images/placeholder.jpg" data-src="images/JupiterSwirls.jpg" alt="Jupiter's Swirls from Juno" loading="lazy">
+        <img src="images/placeholder.jpg" data-src="images/apollo17.jpg" alt="Apollo 17: The Crescent Earth" loading="lazy">
+        <img src="images/placeholder.jpg" data-src="images/freeflyer.jpg" alt="To Fly Free in Space" loading="lazy">
+        <img src="images/placeholder.jpg" data-src="images/centaurus.jpg" alt="Centaurus A: A Peculiar Island of Stars" loading="lazy">  
+    </main>
+</body>
+<script src="script/lazyload.js"></script>
+</html>
