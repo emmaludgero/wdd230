@@ -4,20 +4,71 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Emma Page</title>
+    <title>Emma Ludgero - WDD 230 - Web Frontend Development</title>
+    <meta name="description" content="Emma Ludgero - WDD 230 - Web Frontend Development Course Assignment Portal">
     <meta name="Author" content="Emma Ludgero">
     <link rel="icon" href="images/emma-logo.png">
-    <link rel="stylesheet" href="styles/home-page.css">
-    <meta property="og:url" content="https://emmaludgero/page" />
-    <meta property="og:type" content="article" />
-    <meta property="og:title" content="Emma Home Page" />
-    <meta property="og:description" content="Homeworks from Emma" />
-    <meta property="og:image" content="https://findvectorlogo.com/wp-content/uploads/2019/11/emma-vector-logo.png" />
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+
 </head>
 
 <body>
-    <h1>This is my page and H1</h1>
-    <h2>This is a H2</h2>
+    <header>
+        <span>
+            <img src="images/emmaProfile.jpg" alt="Emma Profile" width="100" height="100">
+        </span>
+        <h1>Emma Ludgero</h1>
+    </header>
+    <nav>
+        <ul>
+            <li class="active">
+                <a href="index.html">Home</a>
+            </li>
+            <li>
+                <a href="">Chamber</a>
+            </li>
+            <li>
+                <a href="">Site Plan</a>
+            </li>
+            <li>
+                <a href="">Form</a>
+            </li>
+        </ul>
+
+
+    </nav>
+    <main>
+        <h1>WDD 230: Web Frontend Development</h1>
+        <div>
+            <section class="card" id="card1">
+                <h2>Learning Activities</h2>
+                <ul>
+                    <li>Week 01: <a href="https">Layout</a> | <a href="">Media Query</a> | <a href="">JS Pen</a></li>
+                    <li><a href=""></a>Week 02</li>
+                    <li><a href=""></a>Week 03</li>
+                    <li><a href=""></a>Week 04</li>
+                    <li><a href=""></a>Week 05</li>
+                    <li><a href=""></a>Week 06</li>
+                </ul>
+            </section>
+            <section class="card" id="card2">
+                <h2>Information</h2>
+                <p>Curitiba, Brazil</p>
+                <p>Temperature</p>
+                <p>Page Visits: X</p>
+            </section>
+        </div>
+
+    </main>
+    <footer>
+        <p>&copy<a id="year"></a> - Emma Ludgero - Brazil 🇧🇷</p>
+        <p>Last Modification: <a id="lastModified"></a></p>
+    </footer>
+    <script src="scripts/getDates.js"></script>
 </body>
 
 </html>
