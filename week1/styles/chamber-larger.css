@@ -1,0 +1,43 @@
+@media screen and (min-width: 550px) {
+
+    body {
+        max-width: 1100px;
+        margin: auto;
+    }
+
+    nav ul {
+        display: flex;
+        justify-content: center;
+    }
+
+    nav ul li {
+        flex: 1 1 100%;
+    }
+
+    main h1,
+    main h2 {
+        font-size: x-large;
+        text-align: left;
+        padding: 15px;
+        margin: 0%;
+    }
+
+
+    div {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+
+    #typography {
+        grid-column: 2/4;
+    }
+
+    div section {
+        box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2)
+    }
+
+    #wireframe img {
+        display: flex;
+    }
+}
