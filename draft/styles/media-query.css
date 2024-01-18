@@ -22,3 +22,12 @@ section {
     padding: 1rem;
     background-color: #fff;
 }
+
+
+.ib--form {
+    font-family: "Roboto", Helvetica, sans-serif;
+}
+
+.ib--input-label {
+    color: blue;
+}
