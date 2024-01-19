@@ -14,6 +14,10 @@
         flex: 1 1 100%;
     }
 
+    nav #mode {
+        display: block;
+    }
+
     main h1,
     main h2 {
         font-size: x-large;
