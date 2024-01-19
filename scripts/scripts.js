@@ -18,23 +18,26 @@ document.getElementById("flag").textContent = flag;
 
 // Hamburguer Menu
 const nav = document.querySelector('.navigation');
-const button = document.querySelector('#menu');
+const menuButton = document.querySelector('#menu');
 
-button.addEventListener('click', () => {
+menuButton.addEventListener('click', () => {
     nav.classList.toggle('show');
-    button.classList.toggle('show');
+    menuButton.classList.toggle('show');
 })
 
 // Dark Mode
 
 const modeButton = document.querySelector("#mode");
-const main = document.querySelector("main");
+const main = document.querySelector("body");
 const a = document.querySelectorAll('.card a');
 
 modeButton.addEventListener("click", () => {
     if (modeButton.textContent.includes("🕶")) {
         main.style.background = "#222E42";
         main.style.color = "#F2F5FA";
+        menuButton.style.background = "#222E42";
+        menuButton.style.color = "#F2F5FA";
+
         modeButton.textContent = "☀";
         a.forEach(link => {
             link.style.color = "#F2F5FA";
@@ -43,6 +46,8 @@ modeButton.addEventListener("click", () => {
         main.style.background = "#F2F5FA";
         main.style.color = "#222E42";
         modeButton.textContent = "🕶";
+        menuButton.style.color = "#222E42";
+        menuButton.style.background = "#F2F5FA";
         a.forEach(link => {
             link.style.color = "#222E42";
         });

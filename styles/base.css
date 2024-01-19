@@ -107,8 +107,6 @@ footer {
     text-decoration: none;
     padding: 2rem 1.5rem;
     background-color: #F2F5FA;
-    color: #000;
-
 }
 
 #menu::before {
@@ -116,7 +114,6 @@ footer {
     display: inline;
     float: right;
     vertical-align: middle;
-    color: #222E42
 }
 
 nav {
@@ -160,7 +157,6 @@ navigation a:active {
 #menu.show::before {
     content: "x";
     font-weight: bold;
-    color: #222E42;
 }
 
 /* Dark Mode */
