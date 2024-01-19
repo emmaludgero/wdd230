@@ -15,3 +15,11 @@ const year = document.getElementById("year");
 year.textContent = actualYear;
 
 document.getElementById("flag").textContent = flag;
+
+const nav = document.querySelector('.navigation');
+const button = document.querySelector('#menu');
+
+button.addEventListener('click', () => {
+    nav.classList.toggle('show');
+    button.classList.toggle('show');
+})

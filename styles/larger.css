@@ -27,4 +27,25 @@
     div section {
         box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2)
     }
+
+    .navigation {
+        display: flex;
+    }
+
+    .navigation li {
+        display: block;
+        /* change state in small view */
+        flex: 1 1 100%;
+        border-radius: 2%;
+    }
+
+    .navigation a {
+        text-align: center;
+        padding-left: 15px;
+        border-radius: 2%;
+    }
+
+    #menu {
+        display: none;
+    }
 }

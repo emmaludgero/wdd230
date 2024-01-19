@@ -45,13 +45,9 @@ nav li:hover {
 }
 
 nav .active a {
-    background-color: #FC6523;
     font-weight: bold;
     color: #222E42;
-}
-
-nav .active:hover {
-    background-color: #FC8D4C;
+    background-color: rgba(34, 46, 66, 0.2);
 }
 
 main h1 {
@@ -96,4 +92,69 @@ footer {
     color: #fff;
     background-color: #222E42;
     padding: .5rem;
+}
+
+/* Hamburguer Menu */
+
+#menu {
+    display: block;
+    font-size: 2rem;
+    font-weight: 700;
+    text-decoration: none;
+    padding: 2rem 1.5rem;
+    background-color: #F2F5FA;
+    color: #000;
+
+}
+
+#menu::before {
+    content: "≡";
+    display: inline;
+    float: right;
+    vertical-align: middle;
+    color: #222E42
+}
+
+nav {
+    background-color: #F2F5FA;
+    color: #222E42
+}
+
+.navigation {
+    list-style: none;
+    margin: 0 auto;
+    max-width: 760px;
+}
+
+.navigation li {
+    display: none;
+}
+
+.navigation a {
+    display: block;
+    padding: 0.75rem;
+    text-align: left;
+    text-decoration: none;
+    padding-left: 30px;
+    color: #222E42;
+    font-weight: 700;
+    transition: 0.5s;
+    font-size: clamp(1rem, 2vmin, 1.5rem);
+}
+
+.navigation a:hover,
+navigation a:active {
+    color: #F2F5FA;
+    background-color: #222E42;
+    border-radius: 2%;
+}
+
+.show li {
+    display: block;
+}
+
+#menu.show::before {
+    content: "x";
+    font-weight: lighter;
+    color: #222E42;
 }
