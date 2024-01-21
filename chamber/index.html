@@ -17,6 +17,7 @@
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/larger.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@10">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
@@ -25,41 +26,106 @@
 
 <body>
     <header>
-        <img src="images/01_Infobip_logo_vertical_rgb_color.png" alt="Company's Logo" width="100" height="100">
+        <img src="images/logo-escura.png" alt="Company's Logo">
+        <a id="menu" href="#"></a>
     </header>
-    <nav>
+    <nav class="navigation">
         <ul>
-            <li><a href="#">Home</a></li>
+            <li class="active"><a href="#">Home</a></li>
             <li><a href="#">Discover</a></li>
             <li><a href="#">Directory</a></li>
             <li><a href="#">Join</a></li>
         </ul>
     </nav>
     <main>
-        <section class="hero-section">
-            <h1>What is Infobip?</h1>
-            <h2>Your Solution!</h2>
+        <section id="hero-section">
+            <div class="cor-sobreposta"></div>
+            <h1>Infobip Chamber of Commerce</h1>
             <img src="https://therecursive.com/cdn-cgi/image/format=auto/wp-content/uploads/2022/01/Infobip-Pangea-kampus-u-Vodnjanu-1024x682.jpg"
-                alt="Company View" width="300px">
+                alt="Company View">
         </section>
-        <section class="action-section">
-            <h2>Wants to know more? Let's dive into our world!</h2>
-            <button id="join-us">Join Us</button>
-        </section>
-        <section class="events-section">
-            <h2>Get know more about our Events!</h2>
-        </section>
-        <section class="weather-section">
-            <h2>Weather</h2>
-        </section>
-        <section class="ads-section">
-            <h2>Look how great we are!</h2>
-        </section>
+        <div class="cards">
+            <section class="card" id="action-section">
+                <h2>Join us in our Chamber of Commerce</h2>
+                <p>Join the Infobip Chamber of Commerce, an exclusive business community designed to connect
+                    professionals,
+                    foster innovation, and provide valuable resources for growth. As a member, you'll access networking
+                    opportunities, business development support, an innovation hub, visibility for your business, and
+                    educational resources to stay informed on industry trends. Simply click on the button below to
+                    register
+                    and become a part of our dynamic business network today. </p>
+                <button id="join-us">Join Us</button>
+            </section>
+
+            <section class="card" id="events-section">
+                <h2>Know more about our Events</h2>
+
+                <h3>Infobip Tech Summit</h3>
+                <h4>📅 March 15, 2024 <br>📍 Silicon Valley Conference Center, San Francisco, CA <br>🕓 9:00 AM - 5:00
+                    PM
+                </h4>
+                <p>Join us for a cutting-edge Tech Summit where industry leaders, tech enthusiasts, and innovators
+                    converge
+                    to explore the latest trends in technology. Engage in insightful discussions, attend workshops, and
+                    network with professionals pushing the boundaries of innovation.</p>
+
+                <h3>Infobip Business Networking Mixer</h3>
+                <h4>📅 June 10, 2024 <br>📍 Skyline Rooftop Lounge, Manhattan, NY <br>🕓 6:30 PM - 9:00 PM</h4>
+                <p>Elevate your networking experience at our exclusive Business Networking Mixer. Connect with fellow
+                    entrepreneurs, executives, and decision-makers in a relaxed atmosphere with stunning skyline views.
+                    Build meaningful connections, exchange ideas, and discover collaborative opportunities. </p>
+
+                <h3>Infobip Global Marketing Summit</h3>
+                <h4>📅 October 5, 2024 <br>📍 Palais des Congrès, Paris, France <br>🕓 10:00 AM - 6:00 PM</h4>
+                <p>Unleash the power of marketing at the Infobip Global Marketing Summit. This three-day event gathers
+                    marketing professionals from around the world to explore the latest strategies, trends, and
+                    technologies. Immerse yourself in keynote presentations, interactive workshops, and networking
+                    sessions
+                    to stay ahead in the dynamic world of marketing. </p>
+            </section>
+
+            <section class="card" id="ads-section">
+                <h2>Company Spotlight Advertisements</h2>
+
+                <h3>TechInnovate Solutions</h3>
+                <h4>Empowering Tomorrow, Today</h4>
+                <p>TechInnovate Solutions is at the forefront of technological advancement, providing innovative
+                    solutions
+                    tailored to meet the evolving needs of businesses. From cutting-edge software development to
+                    state-of-the-art cybersecurity, we empower companies to navigate the digital landscape with
+                    confidence.
+                    Join us on the journey to the future of technology.</p>
+
+                <h3>EcoGreen Ventures</h3>
+                <h4>Sustainable Solutions for a Better World</h4>
+                <p>EcoGreen Ventures is committed to environmental sustainability. Our comprehensive range of
+                    eco-friendly
+                    products and services is designed to help businesses reduce their carbon footprint. Join us in
+                    creating
+                    a greener, more sustainable future. Let's make a positive impact together.</p>
+
+                <h3>MarketMinds Analytics</h3>
+                <h4>Turning Data into Actionable Insights</h4>
+                <p>MarketMinds Analytics specializes in transforming raw data into strategic insights. Our advanced
+                    analytics solutions empower businesses to make informed decisions, optimize processes, and stay
+                    ahead in
+                    today's competitive market. Join us in unlocking the power of data to drive success.</p>
+            </section>
+
+            <section class="card" id="weather-section">
+                <h2>Weather</h2>
+            </section>
+        </div>
+
     </main>
     <footer>
-        <p>&copy;<a id="year"></a> - Emma Ludgero - Brazil <a id="flag"></a></p>
+        <p>📧 <a id="emailLink" href="emma.ludgero@gmail.com">Emma.Ludgero@gmail.com</a></p>
+        <p>📍 Brazil <a id="flag"></a></p>
+        <p>📖 Chamber Project - WDD 230</p>
+        <h4>Last Modification: <a id="lastModified"></a></h4>
     </footer>
     <script src="scripts/scripts.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
 </body>
 
 </html>
