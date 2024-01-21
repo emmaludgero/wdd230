@@ -47,7 +47,8 @@
 
     /* Styling Hero Section */
 
-    .hero-section h1 {
+    #hero-section h1 {
+        white-space: nowrap;
         font-size: xx-large;
         text-align: center;
         top: 50%;
