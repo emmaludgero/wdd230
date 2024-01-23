@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lazy Load</title>
+    <meta name="description" content="Responsive Images Assignment">
+    <meta name="author" content="Emma Ludgero">
+    <meta property="og:title" content="Responsive Images">
+    <meta property="og:type" content="website" />
+    <meta property="og:image"
+        content="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCfDKUqprg19VeWJwTso0HHrJ71QFrw_ovSlPKw5IgEB5JBPADh8jU9axnVRosynmptVs&usqp=CAU">
+    <meta property="og:url" content="https://emmaludgero.github.io/lazyload.html">
+    <meta name="twitter:card" content="summary_large_image">
+    <link rel="icon" href="emma-logo.ico">
+    <link rel="stylesheet" href="styles/responsive-images.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <main>
+        <div class="hero">
+            <picture>
+                <source srcset="images/hero-small.webp" media="(max-width: 500px)">
+                <source srcset="images/hero-medium.webp" media="(max-width: 1000px)">
+                <img src="images/hero-large.webp" alt="table setting" width="1280px" height="800px">
+                <span>Rome Temple</span>
+            </picture>
+
+        </div>
+    </main>
+</body>
+
+</html>
