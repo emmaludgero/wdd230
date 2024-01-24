@@ -25,6 +25,7 @@ img {
     background-color: #222E42;
     animation: fade 15s;
     margin-bottom: 2%;
+    justify-content: center;
 }
 
 @keyframes fade {
