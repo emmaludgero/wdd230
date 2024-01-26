@@ -37,7 +37,7 @@ function deleteChapter(chapter) {
 function displayList(item) {
     const li = document.createElement('li');
     const deleteButton = document.createElement('button');
-    li.  = item;
+    li.textContent = item;
     deleteButton.textContent = '❌';
     deleteButton.classList.add('delete');
     li.append(deleteButton);
