@@ -4,7 +4,6 @@
         margin: auto;
     }
 
-
     /* Styling nav bar */
     nav ul {
         display: flex;
@@ -15,14 +14,22 @@
         flex: 1 1 100%;
     }
 
-    nav #mode {
-        display: block;
+    #menu {
+        display: none;
     }
 
     .show li {
         display: block;
         border-bottom: transparent;
         border-right: 1px solid #ccc;
+    }
+
+    .navigation li {
+        display: block;
+        /* change state in small view */
+        flex: 1 1 100%;
+        border-radius: 2%;
+        align-content: center;
     }
 
     /* Styling Sections*/

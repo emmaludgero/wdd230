@@ -18,6 +18,7 @@ header img {
     padding: 20px;
     width: 150px;
     height: fit-content;
+    object-fit: cover;
 }
 
 #menu {
@@ -80,6 +81,8 @@ header img {
 nav ul {
     padding: 0%;
 }
+
+/* <<<<<<<<<<<<<< Start of Index Page >>>>>>>>>>>>>> */
 
 /* Styling the Sections */
 
@@ -181,6 +184,15 @@ section {
     width: 220px;
     box-shadow: 2px 2px 0px 0px rgba(34, 46, 66, 0.1);
 }
+
+/* <<<<<<<<<<<<<< End of Index Page >>>>>>>>>>>>>> */
+
+/* <<<<<<<<<<<<<< Start of Discover Page >>>>>>>>>>>>>> */
+
+
+
+/* <<<<<<<<<<<<<< End of Discover Page >>>>>>>>>>>>>> */
+
 
 /* Footer */
 

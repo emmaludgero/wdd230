@@ -51,6 +51,7 @@ nav .active a {
 }
 
 .temple {
+    margin-top: 1px;
     display: block;
     position: relative;
     height: 500px;
@@ -66,7 +67,6 @@ nav .active a {
 
 .templeLabel {
     position: absolute;
-
     top: 80px;
     left: 30px;
     background: #F2F5FA;
@@ -78,7 +78,6 @@ nav .active a {
 .templeLabel p {
     font-size: 20px;
     font-weight: 500;
-
 }
 
 main h1 {
@@ -120,6 +119,22 @@ main h2 {
 
 .card p {
     text-align: center;
+}
+
+.map {
+    display: flex;
+    border: 1px solid #222E42;
+    margin: 0.5rem;
+    align-items: center;
+    justify-content: center;
+    max-height: 450px;
+
+}
+
+iframe {
+    object-fit: inherit;
+    border: 1px solid #222E42;
+    width: 100%;
 }
 
 footer {

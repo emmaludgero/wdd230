@@ -18,13 +18,12 @@
         display: block;
     }
 
-
     main h1,
     main h2 {
         font-size: x-large;
     }
 
-    div .cards {
+    div {
         display: grid;
         grid-template-columns: 2fr 1fr;
     }
@@ -52,5 +51,9 @@
 
     #menu {
         display: none;
+    }
+
+    .map {
+        grid-column: 1/3;
     }
 }
