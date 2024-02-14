@@ -30,6 +30,7 @@ menuButton.addEventListener('click', () => {
 const modeButton = document.querySelector("#mode");
 const main = document.querySelector("body");
 const a = document.querySelectorAll('.card a');
+const templeLabel = document.querySelector(".templeLabel");
 
 modeButton.addEventListener("click", () => {
     if (modeButton.textContent.includes("🕶")) {
@@ -37,7 +38,7 @@ modeButton.addEventListener("click", () => {
         main.style.color = "#F2F5FA";
         menuButton.style.background = "#222E42";
         menuButton.style.color = "#F2F5FA";
-
+        templeLabel.style.color = "#222E42"
         modeButton.textContent = "☀";
         a.forEach(link => {
             link.style.color = "#F2F5FA";
