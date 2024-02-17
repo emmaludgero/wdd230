@@ -21,13 +21,13 @@ pss2.addEventListener("focusout", checkSame);
 
 function checkSame() {
     if (pss.value !== pss2.value) {
-        message.textContent = "❗Key Phrases DO NOT MATCH!";
-        message.style.visibility = "show";
+        message.textContent = "❗Passwords DO NOT MATCH!❗";
+        message.style.visibility = "visible";
         pss2.style.backgroundColor = "#fff0f3";
         pss2.value = "";
         pss2.focus();
     } else {
-        message.style.display = "none";
+        message.style.visibility = "hidden";
         pss2.style.backgroundColor = "#fff";
         pss2.style.color = "#000";
     }

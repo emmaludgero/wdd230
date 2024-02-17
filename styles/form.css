@@ -81,7 +81,10 @@ form label input:required:valid {
 }
 
 #formmessage {
-    visibility: none;
-    margin: 10px;
+    visibility: hidden;
+    margin: 10px auto;
     padding: 0.5rem;
+    background-color: #fff0f3;
+    text-align: center;
+    display: block;
 }
