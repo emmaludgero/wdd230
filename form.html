@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+    <meta name="description" content="Forms">
+    <meta name="author" content="Emma Ludgero">
+    <meta property="og:title" content="Forms">
+    <meta property="og:type" content="website" />
+    <link rel="icon" href="emma-logo.ico">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <link rel="stylesheet" href="styles/form.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <span>
+            <img src="images/emmaProfile.webp" alt="Emma Profile" width="100" height="100" loading="lazy">
+        </span>
+        <h1>Emma Ludgero<a id="mode">🕶</a></h1>
+
+        <a id="menu" href="#"></a>
+    </header>
+    <div id="formmessage"></div>
+    <nav>
+        <ul class="navigation">
+            <li class="active">
+                <a href="index.html">Home</a>
+            </li>
+            <li>
+                <a href="chamber/index.html">Chamber</a>
+            </li>
+            <li>
+                <a href="week01/chamber-site-plan.html">Site Plan</a>
+            </li>
+            <li>
+                <a href="">Form</a>
+            </li>
+        </ul>
+    </nav>
+    <main>
+        <form method="get" action="record.html">
+            <fieldset>
+                <legend>User Information</legend>
+                <label>Username*<input type="text" id="username" name="username" required></label>
+                <label>Password*<input type="password" id="pss" name="pss" required
+                        pattern="^(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d]{8,}$"
+                        placeholder="8 characters long and alpha-numeric"></label>
+                <label>Confirm Password*<input type="password" id="pss2" name="pss2" required
+                        pattern="^(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d]{8,}$"></label>
+                <label>Email*<input type="email" name="email" placeholder="example@byui.edu" required
+                        pattern="[a-zA-Z0-9._%+-]+@byui\.edu$" title="Please enter a valid email address"></label>
+
+                <label for="r">Rate Page</label>
+                <div id="rangevalue">0</div>
+                <input type="range" id="r" name="rating" min="0" max="10" value="0" step="1" list="rangevalues">
+                <datalist id="rangevalues">
+                    <option value="0">0</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                </datalist>
+            </fieldset>
+            <input type="submit" value="Sign Up" class="submitBtn">
+        </form>
+
+
+
+
+    </main>
+    <footer>
+        <p>&copy;<a id="year"></a> - Emma Ludgero - Brazil <a id="flag"></a></p>
+        <p>Last Modification: <a id="lastModified"></a></p>
+    </footer>
+    <script src="scripts/scripts.js"></script>
+    <script src="scripts/form.js"></script>
+</body>
+
+</html>

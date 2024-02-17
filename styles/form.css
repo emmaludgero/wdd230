@@ -1,0 +1,87 @@
+:root {
+    --darkBlue: #222E42;
+    --lightBlue: #F2F5FA;
+    --border: 1px solid #222E42;
+    --borderOrange: #FC6423 solid 4px;
+}
+
+form fieldset {
+    margin: 2rem 0;
+    border: var(--border);
+    border-radius: 10px;
+    padding: .5rem 2%;
+}
+
+form legend {
+    color: var(--darkBlue);
+    margin: 0 1rem;
+    padding: 0 .5rem;
+}
+
+
+form label input,
+form label select {
+    -webkit-appearance: none;
+    display: block;
+    font-size: 1rem;
+    border: solid 1px #999;
+    border-radius: 4px;
+    padding: .75rem;
+    color: #555;
+    width: 100%;
+    max-width: 20rem;
+}
+
+form label select {
+    background-color: rgba(34, 46, 66, 0.2);
+}
+
+form label {
+    display: block;
+    padding: .75rem 0;
+    color: #555;
+}
+
+form input.submitBtn {
+    border: none;
+    background-color: var(--darkBlue);
+    color: var(--lightBlue);
+    border-radius: 1rem;
+    padding: .75rem 1.5rem;
+    margin: 0 0 2rem 2%;
+    width: 96%;
+    max-width: 20rem;
+}
+
+form label input:required {
+    border-left: var(--borderOrange);
+}
+
+form label input:required:valid {
+    border-left: green solid 6px;
+}
+
+#r {
+    width: 300px;
+    margin-bottom: 0;
+}
+
+#rangevalue {
+    font-size: 2rem;
+}
+
+#rangevalues {
+    display: flex;
+    margin: 0 0 0 0px;
+    width: 325px;
+}
+
+#rangevalues option {
+    flex: 1 1 auto;
+}
+
+#formmessage {
+    visibility: none;
+    margin: 10px;
+    padding: 0.5rem;
+}
