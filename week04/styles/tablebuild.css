@@ -1,0 +1,48 @@
+:root {
+    --border: solid .7px black;
+    text-align: left;
+    font-size: small;
+    font-family: 'Inter', sans-serif;
+    --zebra: #ccc;
+    --back1: black;
+    --back2: #222E42;
+}
+
+caption {
+    padding: 10px;
+    caption-side: bottom;
+    font-size: 12px;
+}
+
+table {
+    margin: 10px auto;
+    border-collapse: collapse;
+    border: var(--border);
+}
+
+td,
+th {
+    text-align: center;
+    padding: 1rem;
+    border: var(--border);
+}
+
+.title,
+.empty-cell {
+    background-color: var(--back1);
+    color: white;
+    font-size: larger;
+}
+
+thead tr:not(:first-child) {
+    background-color: var(--back2);
+    color: white;
+}
+
+tbody th {
+    color: var(--back2);
+}
+
+tbody tr:nth-child(2) {
+    background-color: var(--zebra);
+}
