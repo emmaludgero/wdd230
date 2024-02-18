@@ -45,8 +45,7 @@
                         <legend>Application Information</legend>
                         <label>First Name* <input type="text" required name="fname" id="fname"></label>
                         <label>Last Name* <input type="text" required name="lname" id="lname"></label>
-                        <label>Job Position <input type="text" name="position" id="position"
-                                pattern="^[a-zA-Z -]{7,}$"></label>
+
                         <label>Email* <input type="email" required name="email" id="email"
                                 placeholder="example@gmail.com"></label>
                         <label>Phone* <input type="tel" required name="phone" id="phone"></label>
@@ -59,12 +58,17 @@
                                 <option value="Gold">Gold Membership</option>
                             </select>
                         </label>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Job Information</legend>
+                        <label>Job Position <input type="text" name="position" id="position"
+                                pattern="^[a-zA-Z -]{7,}$"></label>
                         <label>Business Description <textarea name="description" id="description" cols="30"
                                 rows="10"></textarea></label>
-                        <input type="hidden" id="timestamp" name="timestamp">
-                        <input type="submit" value="Submit" class="submitBtn">
 
                     </fieldset>
+                    <input type="submit" value="Submit" class="submitBtn">
+                    <input type="hidden" id="timestamp" name="timestamp">
                 </form>
             </section>
             <section class="card">

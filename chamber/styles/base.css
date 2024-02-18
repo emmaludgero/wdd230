@@ -197,9 +197,11 @@ section {
 
 
 form fieldset {
-    margin: 2rem 0;
+    margin: 2rem;
     border: none;
-    padding: .5rem 2%;
+    padding: 1rem;
+    border: solid 0.5px #99999967;
+    border-radius: 4px;
 }
 
 form legend {
@@ -234,10 +236,12 @@ form input.submitBtn {
     background-color: #222E42;
     color: #F2F5FA;
     border-radius: 4px;
-    padding: .75rem 1.5rem;
-    margin-top: 1rem;
-    width: 96%;
+    width: 100%;
     max-width: 20rem;
+    padding: .5rem;
+    margin-bottom: 2rem;
+    margin-left: 2rem;
+
 }
 
 form label input:required {
@@ -246,6 +250,15 @@ form label input:required {
 
 form label input:required:valid {
     border-left: green solid 6px;
+}
+
+#formmessage {
+    visibility: hidden;
+    margin: 10px auto;
+    padding: 0.5rem;
+    background-color: #fff0f3;
+    text-align: center;
+    display: block;
 }
 
 /* <<<<<<<<<<<<<< End of Join Page >>>>>>>>>>>>>> */
