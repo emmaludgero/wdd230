@@ -193,6 +193,62 @@ section {
 
 /* <<<<<<<<<<<<<< End of Discover Page >>>>>>>>>>>>>> */
 
+/* <<<<<<<<<<<<<< Start of Join Page >>>>>>>>>>>>>> */
+
+
+form fieldset {
+    margin: 2rem 0;
+    border: none;
+    padding: .5rem 2%;
+}
+
+form legend {
+    font-weight: 500;
+}
+
+form label,
+form div,
+textarea {
+    display: block;
+    padding-top: 1rem;
+
+}
+
+form label input,
+form label #membership,
+textarea {
+    -webkit-appearance: none;
+    display: block;
+    border: solid 1px #999;
+    border-radius: 4px;
+    padding: .75rem;
+    color: #555;
+    width: 400px;
+    max-width: 20rem;
+    background-color: #F2F5FA;
+
+}
+
+form input.submitBtn {
+    border: none;
+    background-color: #222E42;
+    color: #F2F5FA;
+    border-radius: 4px;
+    padding: .75rem 1.5rem;
+    margin-top: 1rem;
+    width: 96%;
+    max-width: 20rem;
+}
+
+form label input:required {
+    border-left: #FC6423 solid 4px;
+}
+
+form label input:required:valid {
+    border-left: green solid 6px;
+}
+
+/* <<<<<<<<<<<<<< End of Join Page >>>>>>>>>>>>>> */
 
 /* Footer */
 

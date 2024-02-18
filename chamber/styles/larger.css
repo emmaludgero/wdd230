@@ -5,12 +5,16 @@
     }
 
     /* Styling nav bar */
+
+
+
     nav ul {
         display: flex;
         justify-content: center;
     }
 
     nav ul li {
+        display: block;
         flex: 1 1 100%;
     }
 
@@ -18,7 +22,7 @@
         display: none;
     }
 
-    .show li {
+    .navigation li {
         display: block;
         border-bottom: transparent;
         border-right: 1px solid #ccc;
@@ -26,11 +30,15 @@
 
     .navigation li {
         display: block;
-        /* change state in small view */
         flex: 1 1 100%;
         border-radius: 2%;
         align-content: center;
     }
+
+    .navigation {
+        transform: translateX(0);
+    }
+
 
     /* Styling Sections*/
 
