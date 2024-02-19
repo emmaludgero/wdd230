@@ -11,6 +11,10 @@ body {
     background-color: var(--lightBlue);
 }
 
+::selection {
+    background: rgba(34, 46, 66, 0.2);
+}
+
 /*  Styling the log and nav bar with hamburguer menu */
 header {
     background-color: var(--darkBlue);
