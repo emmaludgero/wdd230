@@ -222,7 +222,6 @@ h4 {
     margin: var(--standardPX);
     border-radius: var(--borderRadius);
     background-color: #fff;
-
 }
 
 .grid-card p {
@@ -230,6 +229,7 @@ h4 {
     max-width: 600px;
     margin: 0 auto;
     margin-bottom: 30px;
+
 }
 
 .grid-card img {
@@ -241,16 +241,23 @@ h4 {
     margin: auto;
 }
 
-.msg-card {
-    margin: var(--standardPX);
-    background-color: #fff;
-    border-radius: var(--borderRadius);
-}
-
-.msg-card h2 {
+#msg-card h2 {
     padding: 10px 10px 10px;
     margin-top: var(--standardPX);
     text-align: center;
+}
+
+#events-card h3 {
+    font-weight: 700;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#events-card h4,
+#events-card p {
+
+    text-align: left;
+    font-size: small;
 }
 
 /* <<<<<<<<<<<<<< End of Discover Page >>>>>>>>>>>>>> */

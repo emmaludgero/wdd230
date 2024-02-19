@@ -77,11 +77,10 @@ document.addEventListener('DOMContentLoaded', function () {
     const msPerDay = 86400000;
     const thisVisit = new Date();
 
-    //display elements
+    // Phrases
     const firstVisitMsg = "Welcome! Let us know if you have any questions";
     const soonVisitMsg = "Back so soon! Awesome!";
 
-    //get item date of last visit to local storage
     let visitDate = localStorage.getItem("visitDate-ls");
 
     let daysSinceVisit = visitDate ? (thisVisit - new Date(visitDate)) / msPerDay : 0;
@@ -98,7 +97,6 @@ document.addEventListener('DOMContentLoaded', function () {
         document.querySelector("#visit-msg").textContent = firstVisitMsg;
     }
 
-    //set item date of current visit to local storage
     localStorage.setItem("visitDate-ls", thisVisit);
 
 });
