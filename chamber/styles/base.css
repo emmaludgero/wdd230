@@ -1,12 +1,19 @@
+:root {
+    --darkBlue: #222E42;
+    --lightBlue: #F2F5FA;
+    --standardPX: 10px;
+    --borderRadius: 4px;
+}
+
 body {
     font-family: 'Inter', sans-serif;
-    color: #222E42;
-    background-color: #F2F5FA;
+    color: var(--darkBlue);
+    background-color: var(--lightBlue);
 }
 
 /*  Styling the log and nav bar with hamburguer menu */
 header {
-    background-color: #222E42;
+    background-color: var(--darkBlue);
     display: grid;
     grid-template-columns: 1fr 1fr;
     align-items: center;
@@ -31,7 +38,7 @@ header img {
     font-weight: 350;
     text-decoration: none;
     padding-right: 20px;
-    color: #F2F5FA;
+    color: var(--lightBlue);
     grid-column: 3/4;
     justify-content: end;
     transition: transform 0.5s ease;
@@ -65,8 +72,8 @@ header img {
     text-align: left;
     text-decoration: none;
     padding-left: 30px;
-    color: #222E42;
-    background-color: #F2F5FA;
+    color: var(--darkBlue);
+    background-color: var(--lightBlue);
     font-weight: 700;
     transition: 0.5s;
     font-size: clamp(1rem, 2vmin, 1.5rem);
@@ -74,7 +81,7 @@ header img {
 
 nav .active a {
     font-weight: bold;
-    color: #222E42;
+    color: var(--darkBlue);
     background-color: rgba(34, 46, 66, 0.05);
 }
 
@@ -149,7 +156,7 @@ section {
 }
 
 h2 {
-    padding: 10px;
+    padding: var(--standardPX);
     padding-bottom: 0%;
     font-size: larger;
     font-weight: 600;
@@ -157,22 +164,22 @@ h2 {
 
 p {
     font-weight: 200;
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-bottom: 10px;
+    padding-left: var(--standardPX);
+    padding-right: var(--standardPX);
+    padding-bottom: var(--standardPX);
     text-align: justify;
     margin: 0%;
 }
 
 h3 {
-    padding-left: 10px;
+    padding-left: var(--standardPX);
     margin-bottom: 1%;
     font-size: medium;
     font-weight: 500;
 }
 
 h4 {
-    padding-left: 10px;
+    padding-left: var(--standardPX);
     margin-top: 0;
     margin-bottom: 2%;
     font-size: small;
@@ -182,15 +189,15 @@ h4 {
 /* Styling the button */
 
 #join-us {
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin-top: var(--standardPX);
+    margin-bottom: var(--standardPX);
     margin-left: -3.5px;
     font-family: 'Inter', sans-serif;
     text-align: left;
     font-weight: 500;
     padding: 12px;
-    background-color: #F2F5FA;
-    color: #222E42;
+    background-color: var(--lightBlue);
+    color: var(--darkBlue);
     border: none;
     font-size: 16px;
     cursor: pointer;
@@ -212,8 +219,8 @@ h4 {
 }
 
 .grid-card {
-    margin: 10px;
-    border-radius: 4px;
+    margin: var(--standardPX);
+    border-radius: var(--borderRadius);
     background-color: #fff;
 
 }
@@ -230,11 +237,21 @@ h4 {
     height: auto;
     object-fit: cover;
     max-width: 100%;
-    border-radius: 4px;
+    border-radius: var(--borderRadius);
     margin: auto;
 }
 
+.msg-card {
+    margin: var(--standardPX);
+    background-color: #fff;
+    border-radius: var(--borderRadius);
+}
 
+.msg-card h2 {
+    padding: 10px 10px 10px;
+    margin-top: var(--standardPX);
+    text-align: center;
+}
 
 /* <<<<<<<<<<<<<< End of Discover Page >>>>>>>>>>>>>> */
 
@@ -246,7 +263,7 @@ form fieldset {
     border: none;
     padding: 1rem;
     border: solid 0.5px #99999967;
-    border-radius: 4px;
+    border-radius: var(--borderRadius);
 }
 
 form legend {
@@ -267,20 +284,20 @@ textarea {
     -webkit-appearance: none;
     display: block;
     border: solid 1px #999;
-    border-radius: 4px;
+    border-radius: var(--borderRadius);
     padding: .75rem;
     color: #555;
     width: 400px;
     max-width: 20rem;
-    background-color: #F2F5FA;
+    background-color: var(--lightBlue);
 
 }
 
 form input.submitBtn {
     border: none;
-    background-color: #222E42;
-    color: #F2F5FA;
-    border-radius: 4px;
+    background-color: var(--darkBlue);
+    color: var(--lightBlue);
+    border-radius: var(--borderRadius);
     width: 100%;
     max-width: 20rem;
     padding: .5rem;
@@ -290,7 +307,7 @@ form input.submitBtn {
 }
 
 form label input:required {
-    border-left: #FC6423 solid 4px;
+    border-left: #FC6423 solid var(--borderRadius);
 }
 
 form label input:required:valid {
@@ -299,7 +316,7 @@ form label input:required:valid {
 
 #formmessage {
     visibility: hidden;
-    margin: 10px auto;
+    margin: var(--standardPX) auto;
     padding: 0.5rem;
     background-color: #fff0f3;
     text-align: center;
@@ -312,13 +329,13 @@ form label input:required:valid {
 
 footer {
     text-align: left;
-    color: #F2F5FA;
-    background-color: #222E42;
+    color: var(--lightBlue);
+    background-color: var(--darkBlue);
     padding: .5rem;
 }
 
 footer a {
-    color: #F2F5FA;
+    color: var(--lightBlue);
 }
 
 footer h4 {

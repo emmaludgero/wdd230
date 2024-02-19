@@ -40,7 +40,7 @@
         <div class="cards">
             <section class="card">
                 <h2>Chamber of Commerce Application</h2>
-                <form action="thankyou.html" method="get" id="forms">
+                <form action="thankyou.html" method="get" id="forms" onsubmit="return checkValidity()">
                     <fieldset>
                         <legend>Application Information</legend>
                         <label>First Name* <input type="text" required name="fname" id="fname"></label>
@@ -61,15 +61,16 @@
                     </fieldset>
                     <fieldset>
                         <legend>Job Information</legend>
-                        <label>Job Position <input type="text" name="position" id="position"
+                        <label for="position">Job Position <input type="text" name="position" id="position"
                                 pattern="^[a-zA-Z -]{7,}$"></label>
                         <label>Business Name <input type="text" name="bname" id="bname" required></label>
                         <label>Business Description <textarea name="description" id="description" cols="30"
                                 rows="10"></textarea></label>
 
                     </fieldset>
-                    <input type="submit" value="Submit" class="submitBtn">
                     <input type="hidden" id="timestamp" name="timestamp">
+                    <input type="submit" value="Submit" class="submitBtn">
+
                 </form>
             </section>
             <section class="card">
