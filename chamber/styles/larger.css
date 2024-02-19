@@ -71,6 +71,38 @@
         transform: translate(-50%, -50%);
     }
 
+    /* Discover Page - Styling Grid Layout*/
 
+    .grid-layout {
+        display: grid;
+        grid-template-columns: 3fr 1fr;
+        justify-content: center;
+    }
+
+    .grid-card {
+        position: relative;
+        text-align: center;
+    }
+
+    .grid-card h1 {
+        text-align: center;
+    }
+
+    .grid-card img {
+        box-shadow: 5px 5px 4px rgba(0, 0, 0, 0.1);
+        opacity: 0.85;
+        transition: opacity 0.3s ease;
+        max-width: 600px;
+        max-height: 300px;
+    }
+
+    .grid-card img:hover {
+        opacity: 1;
+        transform: scale(1.05);
+    }
+
+    .grid-card picture:first-child img {
+        margin-top: 30px;
+    }
 
 }

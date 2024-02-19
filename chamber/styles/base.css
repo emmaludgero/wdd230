@@ -10,15 +10,19 @@ header {
     display: grid;
     grid-template-columns: 1fr 1fr;
     align-items: center;
+    height: 100px;
+
 }
 
 
 header img {
     grid-column: 1/2;
     padding: 20px;
-    width: 150px;
-    height: fit-content;
+    width: 100%;
+    height: auto;
+    max-width: 100px;
     object-fit: cover;
+    vertical-align: middle;
 }
 
 #menu {
@@ -66,6 +70,17 @@ header img {
     font-weight: 700;
     transition: 0.5s;
     font-size: clamp(1rem, 2vmin, 1.5rem);
+}
+
+nav .active a {
+    font-weight: bold;
+    color: #222E42;
+    background-color: rgba(34, 46, 66, 0.05);
+}
+
+nav a:hover {
+    background-color: rgba(34, 46, 66, 0.2);
+    transform: scale(1.03);
 }
 
 .show li {
@@ -133,14 +148,14 @@ section {
     max-width: 440px;
 }
 
-.card h2 {
+h2 {
     padding: 10px;
     padding-bottom: 0%;
     font-size: larger;
     font-weight: 600;
 }
 
-.card p {
+p {
     font-weight: 200;
     padding-left: 10px;
     padding-right: 10px;
@@ -149,14 +164,14 @@ section {
     margin: 0%;
 }
 
-.card h3 {
+h3 {
     padding-left: 10px;
     margin-bottom: 1%;
     font-size: medium;
     font-weight: 500;
 }
 
-.card h4 {
+h4 {
     padding-left: 10px;
     margin-top: 0;
     margin-bottom: 2%;
@@ -188,6 +203,37 @@ section {
 /* <<<<<<<<<<<<<< End of Index Page >>>>>>>>>>>>>> */
 
 /* <<<<<<<<<<<<<< Start of Discover Page >>>>>>>>>>>>>> */
+
+.grid-card h1 {
+    text-align: left;
+    top: 0%;
+    padding: 20px;
+    margin: 0%;
+}
+
+.grid-card {
+    margin: 10px;
+    border-radius: 4px;
+    background-color: #fff;
+
+}
+
+.grid-card p {
+    text-align: justify;
+    max-width: 600px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+
+.grid-card img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    max-width: 100%;
+    max-height: auto;
+    border-radius: 4px;
+    margin: auto;
+}
 
 
 
