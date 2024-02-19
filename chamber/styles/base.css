@@ -230,7 +230,6 @@ h4 {
     height: auto;
     object-fit: cover;
     max-width: 100%;
-    max-height: auto;
     border-radius: 4px;
     margin: auto;
 }
