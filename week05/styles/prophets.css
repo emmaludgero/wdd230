@@ -1,0 +1,30 @@
+:root {
+    font-family: "Inter", sans-serif;
+    text-align: center;
+    margin: 0 auto;
+    background-color: #F2F5FA;
+    max-width: 1000px;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-gap: 10px;
+}
+
+section {
+    display: inline-block;
+    max-width: 300px;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 10px;
+    border: 1px solid #ccc;
+    padding: 20px;
+}
+
+header,
+footer {
+    color: #fff;
+    background-color: #222E42;
+    padding: 1%;
+}
