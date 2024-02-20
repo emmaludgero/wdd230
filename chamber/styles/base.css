@@ -157,6 +157,7 @@ section {
     background-color: #fff;
     position: relative;
     max-width: 440px;
+    border-radius: var(--borderRadius);
 }
 
 h2 {
@@ -192,7 +193,8 @@ h4 {
 
 /* Styling the button */
 
-#join-us {
+#join-us,
+.btn {
     margin-top: var(--standardPX);
     margin-bottom: var(--standardPX);
     margin-left: -3.5px;
@@ -335,6 +337,60 @@ form label input:required:valid {
 }
 
 /* <<<<<<<<<<<<<< End of Join Page >>>>>>>>>>>>>> */
+
+/* <<<<<<<<<<<<<< Start of Directory Page >>>>>>>>>>>>>> */
+
+
+
+.companyLogos {
+    padding: 10px;
+    width: 100%;
+    height: auto;
+    max-width: 100px;
+    object-fit: cover;
+    vertical-align: middle;
+}
+
+.directory-cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#members .card a {
+    font-weight: 300;
+    padding-left: var(--standardPX);
+    padding-right: var(--standardPX);
+    padding-bottom: var(--standardPX);
+    text-align: justify;
+    margin: 0%;
+}
+
+.members {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-gap: 10px;
+}
+
+#members .card {
+    display: inline-block;
+    max-width: 300px;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 10px;
+    padding: 20px;
+}
+
+
+.btn {
+    text-align: center;
+    margin-bottom: var(--standardPX);
+    background-color: #fff;
+}
+
+/* <<<<<<<<<<<<<< End of Directory Page >>>>>>>>>>>>>> */
+
 
 /* Footer */
 

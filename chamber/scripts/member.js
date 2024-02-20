@@ -13,66 +13,39 @@ async function getLinks(url) {
     }
 }
 
-
-const x = (members) => {
-    weeks.forEach((week) => {
-
-        let links = document.querySelector("#members");
-
-        let weekNumbers = document.createElement("li");
-
-        weekNumbers.textContent = `${week.week}:  `;
-        links.appendChild(weekNumbers);
-
-        week.links.forEach((link) => {
-
-            let task = document.createElement("a");
-
-            task.textContent = link.title;
-            task.setAttribute("href", link.url)
-
-            let divider = document.createElement("span");
-            divider.textContent = " | ";
-
-
-            weekNumbers.appendChild(task);
-            weekNumbers.appendChild(divider);
-
-        })
-    });
-}
-
 const displayMembers = (members) => {
     let container = document.querySelector("#members");
 
     members.forEach((member) => {
         let div = document.createElement("div");
-        div.classList.add("member");
+        div.classList.add("card");
 
         let name = document.createElement("h2");
         name.textContent = member.name;
         div.appendChild(name);
 
-        let address = document.createElement("p");
+        let image = document.createElement("img");
+        image.setAttribute("src", `${member.image}`);
+        image.setAttribute("alt", `${member.name} Logo`);
+        image.setAttribute("class", `companyLogos`);
+        div.appendChild(image);
+
+        let membershipLevel = document.createElement("h4");
+        membershipLevel.textContent = `Membership Level: ${member.membership_level}`;
+        div.appendChild(membershipLevel);
+
+        let address = document.createElement("h4");
         address.textContent = `Address: ${member.address}`;
         div.appendChild(address);
 
-        let phone = document.createElement("p");
+        let phone = document.createElement("h4");
         phone.textContent = `Phone: ${member.phone}`;
         div.appendChild(phone);
 
         let website = document.createElement("a");
-        website.textContent = "Website";
+        website.textContent = `${member.name} Website`;
         website.setAttribute("href", member.website);
         div.appendChild(website);
-
-        let image = document.createElement("img");
-        image.setAttribute("src", `images/${member.image}`);
-        div.appendChild(image);
-
-        let membershipLevel = document.createElement("p");
-        membershipLevel.textContent = `Membership Level: ${member.membership_level}`;
-        div.appendChild(membershipLevel);
 
         let otherInfo = document.createElement("p");
         otherInfo.textContent = member.other_info;
