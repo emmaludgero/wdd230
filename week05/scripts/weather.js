@@ -68,7 +68,7 @@ function displayResults(json) {
     weatherIcon.setAttribute('alt', description);
     captionDesc.textContent = `${description}`
 }
-
+-25.435292697425496, -49.27446348187598
 const url = "https://api.openweathermap.org/data/2.5/weather?lat=49.75&lon=6.64&units=imperial&appid=5a9bd3bf31db6f483c38d1f5f0309e6b"
 
 async function apiFetch(url) {

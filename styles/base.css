@@ -96,6 +96,7 @@ main h2 {
     border: 1px solid #222E42;
     border-radius: 1%;
     margin: .5rem;
+
 }
 
 .card h2 {
@@ -119,6 +120,20 @@ main h2 {
 
 .card p {
     text-align: center;
+}
+
+.card figure {
+    display: flex;
+    margin: 0 auto;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+figure img,
+figure figcaption {
+    vertical-align: middle;
+    font-size: small;
 }
 
 .map {
