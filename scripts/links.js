@@ -1,5 +1,5 @@
 const baseURL = "https://emmaludgero.github.io/wdd230/";
-const linksURL = "https://github.com/emmaludgero/wdd230/blob/main/data/liks.json";
+const linksURL = "https://emmaludgero.github.io/wdd230/data/links.json";
 
 async function getLinks(url) {
     console.log("A");
