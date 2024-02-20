@@ -5,7 +5,7 @@
             "address": "One Microsoft Way, Redmond, WA 98052-6399, USA",
             "phone": "+1 (425) 882-8080",
             "website": "https://www.microsoft.com",
-            "image": "microsoft.png",
+            "image": "https://logosmarcas.net/wp-content/uploads/2020/09/Microsoft-Logo.png",
             "membership_level": "Gold",
             "other_info": "Microsoft Corporation is an American multinational technology company that develops, manufactures, licenses, supports, and sells computer software, consumer electronics, and personal computers."
         },
@@ -14,7 +14,7 @@
             "address": "345 Park Avenue, San Jose, California 95110-2704, USA",
             "phone": "+1 (408) 536-6000",
             "website": "https://www.adobe.com",
-            "image": "adobe.png",
+            "image": "https://logosmarcas.net/wp-content/uploads/2020/07/Adobe-Logo.png",
             "membership_level": "Silver",
             "other_info": "Adobe Inc. is an American multinational computer software company headquartered in San Jose, California. It has historically focused upon the creation of multimedia and creativity software products, with a more recent foray into digital marketing software."
         },
@@ -23,7 +23,7 @@
             "address": "1600 Amphitheatre Parkway, Mountain View, California 94043, USA",
             "phone": "+1 (650) 253-0000",
             "website": "https://www.google.com",
-            "image": "google.png",
+            "image": "https://w7.pngwing.com/pngs/326/85/png-transparent-google-logo-google-text-trademark-logo-thumbnail.png",
             "membership_level": "Bronze",
             "other_info": "Google LLC is an American multinational technology company that specializes in Internet-related services and products, which include online advertising technologies, a search engine, cloud computing, software, and hardware."
         },
@@ -32,7 +32,7 @@
             "address": "500 Oracle Parkway, Redwood Shores, California 94065, USA",
             "phone": "+1 (650) 506-7000",
             "website": "https://www.oracle.com",
-            "image": "oracle.png",
+            "image": "https://logosmarcas.net/wp-content/uploads/2020/09/Oracle-Logo.png",
             "membership_level": "Gold",
             "other_info": "Oracle Corporation is an American multinational computer technology corporation headquartered in Redwood Shores, California. The company sells database software and technology, cloud engineered systems, and enterprise software products—particularly its own brands of database management systems."
         },
@@ -41,7 +41,7 @@
             "address": "20 rue des Jardins, 92600 Asnières-sur-Seine, France",
             "phone": "+33 1 55 83 60 00",
             "website": "https://www.vocalcom.com",
-            "image": "vocalcom.png",
+            "image": "https://financesonline.com/uploads/2015/10/vocalcom-logo.png",
             "membership_level": "Silver",
             "other_info": "Vocalcom is a global provider of cloud-based contact center software solutions. Vocalcom's software helps organizations manage customer interactions across all communication channels."
         },
@@ -50,7 +50,7 @@
             "address": "1 Hacker Way, Menlo Park, California 94025, USA",
             "phone": "+1 (650) 543-4800",
             "website": "https://about.meta.com",
-            "image": "meta.png",
+            "image": "https://logosmarcas.net/wp-content/uploads/2021/11/Meta-Logo.png",
             "membership_level": "Bronze",
             "other_info": "Meta Platforms, Inc. (formerly Facebook, Inc.) is an American technology conglomerate that develops the Facebook social media platform, among other products. Meta is one of the world's most valuable companies and is considered one of the Big Tech technology companies, alongside Amazon, Apple, Google, and Microsoft."
         },
@@ -59,7 +59,7 @@
             "address": "Distrito Telefónica, Ronda de la Comunicación s/n, 28050 Madrid, Spain",
             "phone": "+34 91 482 38 00",
             "website": "https://www.telefonica.com",
-            "image": "telefonica.png",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Telef%C3%B3nica_2021_logo.svg/1200px-Telef%C3%B3nica_2021_logo.svg.png",
             "membership_level": "Gold",
             "other_info": "Telefónica, S.A. is a Spanish multinational telecommunications company headquartered in Madrid, Spain. It is one of the largest telephone operators and mobile network providers in the world. Telefónica offers fixed and mobile telephony, broadband and subscription television, with operations in Europe, Asia, and the Americas."
         }
