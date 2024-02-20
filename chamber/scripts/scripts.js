@@ -99,4 +99,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
     localStorage.setItem("visitDate-ls", thisVisit);
 
+
+
+
 });
