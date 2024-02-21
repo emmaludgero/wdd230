@@ -57,3 +57,21 @@ const displayMembers = (members) => {
 
 
 getLinks(linksURL);
+
+const gridbutton = document.querySelector("#grid-btn");
+const listbutton = document.querySelector("#list-btn");
+const display = document.querySelector("#members");
+
+listbutton.addEventListener("click", () => {
+
+    if (display.id == "members") {
+        display.id = "list-view";
+    }
+});
+
+gridbutton.addEventListener("click", () => {
+
+    if (display.id == "list-view") {
+        display.id = "members";
+    }
+});

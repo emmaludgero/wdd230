@@ -354,14 +354,16 @@ form label input:required:valid {
     align-items: center;
 }
 
-#members .member-card a {
+#members .member-card a,
+#list-view a {
     font-weight: 400;
     font-size: smaller;
     padding-left: var(--standardPX);
     padding-right: var(--standardPX);
 }
 
-#members .member-card p {
+#members .member-card p,
+#list-view p {
     padding: var(--standardPX);
 }
 
@@ -372,7 +374,8 @@ form label input:required:valid {
     padding: var(--standardPX);
 }
 
-#members .member-card h2 {
+#members .member-card h2,
+#list-view h2 {
     margin: 0;
 }
 
@@ -382,11 +385,22 @@ form label input:required:valid {
     padding: var(--standardPX);
 }
 
-
-#changeClass {
+.directory-cards .btn {
     text-align: center;
     margin-bottom: var(--standardPX);
     background-color: #fff;
+}
+
+#list-view {
+    background-color: #fff;
+    border-radius: var(--borderRadius);
+    padding: var(--standardPX);
+    margin: 0 auto;
+    max-width: 600px;
+}
+
+#list-view .member-card {
+    border-bottom: var(--darkBlue) .75px solid;
 }
 
 /* <<<<<<<<<<<<<< End of Directory Page >>>>>>>>>>>>>> */
