@@ -25,7 +25,7 @@
 
 <body>
     <header>
-        <img src="images/logo-transparente.png" alt="Company's Logo">
+        <a href="index.html"><img src="images/logo-transparente.png" alt="Company's Logo"></a>
         <a id="menu" href="#"></a>
     </header>
     <nav class="navigation">
@@ -41,7 +41,7 @@
             <div class="cor-sobreposta"></div>
             <h1>Infobip Chamber of Commerce</h1>
             <img src="https://therecursive.com/cdn-cgi/image/format=auto/wp-content/uploads/2022/01/Infobip-Pangea-kampus-u-Vodnjanu-1024x682.jpg"
-                alt="Company View">
+                alt="Company View" loading="lazy">
         </section>
         <div class="cards">
             <section class="card" id="action-section">
@@ -53,7 +53,7 @@
                     educational resources to stay informed on industry trends. Simply click on the button below to
                     register
                     and become a part of our dynamic business network today. </p>
-                <a href="join.html"><button id="join-us">Join Us</button></a>
+                <button id="join-us" onclick="window.location.href='join.html'">Join Us</button>
 
             </section>
 
@@ -114,6 +114,12 @@
 
             <section class="card" id="weather-section">
                 <h2>Weather</h2>
+                <p>Curitiba, Brazil</p>
+                <figure>
+                    <img src="#" alt="" id="weather-icon">
+                    <figcaption></figcaption>
+                </figure>
+                <p>Temperature: <span id="current-temp"></span></p>
             </section>
         </div>
 

@@ -213,6 +213,21 @@ h4 {
     box-shadow: 2px 2px 0px 0px rgba(34, 46, 66, 0.1);
 }
 
+.card figure {
+    display: flex;
+    margin: 0 auto;
+    text-align: left;
+    align-items: center;
+    justify-content: left;
+    padding-left: var(--standardPX);
+}
+
+figure img,
+figure figcaption {
+    vertical-align: middle;
+    font-size: small;
+}
+
 /* <<<<<<<<<<<<<< End of Index Page >>>>>>>>>>>>>> */
 
 /* <<<<<<<<<<<<<< Start of Discover Page >>>>>>>>>>>>>> */
