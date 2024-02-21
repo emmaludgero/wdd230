@@ -340,15 +340,11 @@ form label input:required:valid {
 
 /* <<<<<<<<<<<<<< Start of Directory Page >>>>>>>>>>>>>> */
 
-
-
 .companyLogos {
+    width: 100px;
+    height: 80px;
+    object-fit: contain;
     padding: 10px;
-    width: 100%;
-    height: auto;
-    max-width: 100px;
-    object-fit: cover;
-    vertical-align: middle;
 }
 
 .directory-cards {
@@ -358,32 +354,36 @@ form label input:required:valid {
     align-items: center;
 }
 
-#members .card a {
-    font-weight: 300;
+#members .member-card a {
+    font-weight: 400;
+    font-size: smaller;
     padding-left: var(--standardPX);
     padding-right: var(--standardPX);
-    padding-bottom: var(--standardPX);
-    text-align: justify;
-    margin: 0%;
 }
 
-.members {
+#members .member-card p {
+    padding: var(--standardPX);
+}
+
+#members {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
     grid-gap: 10px;
+    padding: var(--standardPX);
 }
 
-#members .card {
-    display: inline-block;
-    max-width: 300px;
-    width: 100%;
-    box-sizing: border-box;
-    margin: 10px;
-    padding: 20px;
+#members .member-card h2 {
+    margin: 0;
+}
+
+#members .member-card {
+    background-color: #fff;
+    border-radius: var(--borderRadius);
+    padding: var(--standardPX);
 }
 
 
-.btn {
+#changeClass {
     text-align: center;
     margin-bottom: var(--standardPX);
     background-color: #fff;

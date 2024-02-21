@@ -18,7 +18,7 @@ const displayMembers = (members) => {
 
     members.forEach((member) => {
         let div = document.createElement("div");
-        div.classList.add("card");
+        div.classList.add("member-card");
 
         let name = document.createElement("h2");
         name.textContent = member.name;
