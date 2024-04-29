@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chamber of Commerce</title>
+    <meta name="description" content="Emma Ludgero Directory Page">
+    <meta name="author" content="Emma Ludgero">
+    <meta property="og:title" content="Directory">
+    <meta property="og:type" content="website">
+    <meta property="og:image"
+        content="https://pr0.nicelocal.br.com/0yuTL7_gR2RNjecSZ1pwOg/640x426,q85/4px-BW84_n0QJGVPszge3NRBsKw-2VcOifrJIjPYFYkOtaCZxxXQ2QI91bwq2R9R6WFmLvPGqXEMxSCZa4-aFaYUly-2nGlAMPBofgI-VRsudrnQifoBeg">
+    <meta property="og:url" content="https://emmaludgero.github.io/wdd230/chamber/index.html">
+    <meta name="twitter:card" content="summary_large_image">
+    <link rel="icon" href="infobipIco.ico">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <header>
+        <a href="index.html"><img src="images/logo-transparente.png" alt="Company's Logo"></a>
+        <a id="menu" href="#"></a>
+    </header>
+    <nav class="navigation">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="discover.html">Discover</a></li>
+            <li class="active"><a href="directory.html">Directory</a></li>
+            <li><a href="join.html">Join</a></li>
+        </ul>
+    </nav>
+    <main>
+        <div class="directory-cards">
+            <h1>Members Directory</h1>
+            <button class="btn" id="grid-btn" onclick="changeClass()">Grid View</button>
+            <button class="btn" id="list-btn" onclick="changeClass()">List View</button>
+
+            <section id="members"></section>
+        </div>
+
+    </main>
+    <footer>
+        <p>📧 <a id="emailLink" href="emma.ludgero@gmail.com">Emma.Ludgero@gmail.com</a></p>
+        <p>📍 Brazil <a id="flag"></a></p>
+        <p>📖 Chamber Project - WDD 230</p>
+        <h4>Last Modification: <a id="lastModified"></a></h4>
+    </footer>
+    <script src="scripts/scripts.js"></script>
+    <script src="scripts/member.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+</body>
+
+</html>

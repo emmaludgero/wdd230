@@ -2,16 +2,6 @@
 <html lang="en">
 
 <head>
-    <script>
-        (function (I, n, f, o, b, i, p) {
-            I[b] = I[b] || function () { (I[b].q = I[b].q || []).push(arguments) };
-            I[b].t = 1 * new Date(); i = n.createElement(f); i.async = 1; i.src = o;
-            p = n.getElementsByTagName(f)[0]; p.parentNode.insertBefore(i, p)
-        })
-            (window, document, 'script', 'https://livechat.infobip.com/widget.js', 'liveChat');
-
-        liveChat('init', 'fbacc64c-2c32-482c-a61d-a7ad86458e81');
-    </script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Chamber of Commerce</title>
@@ -131,6 +121,11 @@
                 </figure>
                 <p>Temperature: <span id="current-temp"></span></p>
             </section>
+            <section class="card" id="IB-forms-section">
+                <h2>Subscribe to know more about our services!</h2>
+                <div class="form" id="form-ae736c27-36c1-4bbf-9d1c-73a5fadeb8a8"></div>
+                <script async src="https://forms.infobip.com/forms/ae736c27-36c1-4bbf-9d1c-73a5fadeb8a8.js"></script>
+            </section>
         </div>
 
     </main>
@@ -140,9 +135,18 @@
         <p>📖 Chamber Project - WDD 230</p>
         <h4>Last Modification: <a id="lastModified"></a></h4>
     </footer>
+    <script>
+        (function (I, n, f, o, b, i, p) {
+            I[b] = I[b] || function () { (I[b].q = I[b].q || []).push(arguments) };
+            I[b].t = 1 * new Date(); i = n.createElement(f); i.async = 1; i.src = o;
+            p = n.getElementsByTagName(f)[0]; p.parentNode.insertBefore(i, p)
+        })
+            (window, document, 'script', 'https://livechat.infobip.com/widget.js', 'liveChat');
+
+        liveChat('init', 'fbacc64c-2c32-482c-a61d-a7ad86458e81');
+    </script>
     <script src="scripts/scripts.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
-
 </body>
 
 </html>

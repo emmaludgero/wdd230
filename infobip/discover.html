@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Discover Page</title>
+    <meta name="description" content="Emma Ludgero Chamber Project">
+    <meta name="author" content="Emma Ludgero">
+    <meta property="og:title" content="Infobip Chamber of Commerce">
+    <meta property="og:type" content="website">
+    <meta property="og:image"
+        content="https://pr0.nicelocal.br.com/0yuTL7_gR2RNjecSZ1pwOg/640x426,q85/4px-BW84_n0QJGVPszge3NRBsKw-2VcOifrJIjPYFYkOtaCZxxXQ2QI91bwq2R9R6WFmLvPGqXEMxSCZa4-aFaYUly-2nGlAMPBofgI-VRsudrnQifoBeg">
+    <meta property="og:url" content="https://emmaludgero.github.io/wdd230/chamber/index.html">
+    <meta name="twitter:card" content="summary_large_image">
+    <link rel="icon" href="infobipIco.ico">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <header>
+        <a href="index.html"><img src="images/logo-transparente.png" alt="Company's Logo"></a>
+        <a id="menu" href="#"></a>
+    </header>
+    <nav class="navigation">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li class="active"><a href="discover.html">Discover</a></li>
+            <li><a href="directory.html">Directory</a></li>
+            <li><a href="join.html">Join</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section class="grid-layout">
+            <div class="grid-card" id="main">
+                <h1>Discover the beauty of our town!</h1>
+                <div class="local-card">
+                    <picture>
+                        <img src="images/mon.webp" alt="Museu Oscar Niemeyer" loading="lazy">
+                    </picture>
+                    <h3>Museum of Oscar Niemeyer</h3>
+                    <p>Explore the rich history and artistry at the Museum of Oscar Niemeyer. Immerse yourself in
+                        captivating exhibits and discover the cultural heritage of Curitiba.</p>
+                </div>
+                <div class="local-card">
+                    <picture>
+                        <img src="images/bosqueDoPapa.webp" alt="Bosque do Papa" loading="lazy">
+                    </picture>
+                    <h3>Pope's Wood</h3>
+                    <p>Experience tranquility and natural beauty at Pope's Wood. Wander through lush greenery, admire
+                        majestic trees, and enjoy a peaceful escape from the city hustle.</p>
+                </div>
+                <div class="local-card">
+                    <picture>
+                        <img src="images/jardimBotanico.webp" alt="Jardim Botânico" loading="lazy">
+                    </picture>
+                    <h3>Botanical Garden</h3>
+                    <p>Delight your senses at the Botanical Garden. Marvel at stunning plant collections, stroll through
+                        picturesque landscapes, and unwind in the beauty of nature.</p>
+                </div>
+                <div class="local-card">
+                    <picture>
+                        <img src="images/barigui.webp" alt="Parque Barigui" loading="lazy">
+                    </picture>
+                    <h3>Barigui Park</h3>
+                    <p>Embrace outdoor adventure at Barigui Park. Discover vast green spaces, engage in recreational
+                        activities, and create cherished memories with family and friends.</p>
+                </div>
+                <div class="local-card">
+                    <picture>
+                        <img src="images/tangua.webp" alt="Parque Tanguá" loading="lazy">
+                    </picture>
+                    <h3>Tanguá Park</h3>
+                    <p>Surrender to serenity at Tanguá Park. Take in breathtaking vistas, meander along scenic trails,
+                        and rejuvenate your spirit in this urban oasis.</p>
+                </div>
+                <div class="local-card">
+                    <picture>
+                        <img src="images/unilivre.webp" alt="Universidade do Meio Ambiente" loading="lazy">
+                    </picture>
+                    <h3>University of the Environment (Unilivre)</h3>
+                    <p>Ignite your passion for sustainability at Unilivre. Engage in eco-conscious learning, foster
+                        environmental stewardship, and be a catalyst for positive change.</p>
+                </div>
+            </div>
+            <div>
+                <div class="grid-card" id="msg-card">
+                    <h2><a id="visit-msg"></a></h2>
+                </div>
+                <div class="grid-card" id="events-card">
+                    <h3>Don't forget about our events!</h3>
+                    <h4>Infobip Tech Summit</h4>
+                    <p>📅 March 15, 2024 <br>📍 Silicon Valley Conference Center, San Francisco, CA <br>🕓 9:00 AM -
+                        5:00
+                        PM
+                    </p>
+                    <h4>Infobip Business Networking Mixer</h4>
+                    <p>📅 June 10, 2024 <br>📍 Skyline Rooftop Lounge, Manhattan, NY <br>🕓 6:30 PM - 9:00 PM</p>
+                    <h4>Infobip Global Marketing Summit</h4>
+                    <p>📅 October 5, 2024 <br>📍 Palais des Congrès, Paris, France <br>🕓 10:00 AM - 6:00 PM</p>
+                    <button class="btn" onclick="window.location.href='index.html'">Go to
+                        Events</button>
+                </div>
+
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>📧 <a id="emailLink" href="emma.ludgero@gmail.com">Emma.Ludgero@gmail.com</a></p>
+        <p>📍 Brazil <a id="flag"></a></p>
+        <p>📖 Chamber Project - WDD 230</p>
+        <h4>Last Modification: <a id="lastModified"></a></h4>
+    </footer>
+    <script src="scripts/scripts.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+</body>
+
+</html>
