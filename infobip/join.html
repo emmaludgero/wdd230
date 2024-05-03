@@ -52,18 +52,17 @@
                         <label>Membership Level
                             <select name="membership" id="membership">
                                 <option value="">Please Select &#9662;</option>
-                                <option value="NP">Non-Profit Membership</option>
-                                <option value="Bronze">Bronze Membership</option>
-                                <option value="Silver">Silver Membership</option>
-                                <option value="Gold">Gold Membership</option>
+                                <option value="Non-Profit Membership">Non-Profit Membership</option>
+                                <option value="Bronze Membership">Bronze Membership</option>
+                                <option value="Silver Membership">Silver Membership</option>
+                                <option value="Gold Membership">Gold Membership</option>
                             </select>
                         </label>
                     </fieldset>
                     <fieldset>
                         <legend>Job Information</legend>
                         <label for="position">Job Position <input type="text" name="position" id="position"
-                                pattern="^[a-zA-Z -]{7,}$"></label>
-                        <label>Business Name <input type="text" name="bname" id="bname" required></label>
+                                pattern="^[a-zA-Z -]{7,}$" required></label>
                         <label>Business Description <textarea name="description" id="description" cols="30"
                                 rows="10"></textarea></label>
 
@@ -128,7 +127,6 @@
                 </div>
             </section>
         </div>
-
     </main>
     <footer>
         <p>📧 <a id="emailLink" href="emma.ludgero@gmail.com">Emma.Ludgero@gmail.com</a></p>
@@ -137,6 +135,9 @@
         <h4>Last Modification: <a id="lastModified"></a></h4>
     </footer>
     <script src="scripts/scripts.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <script src="scripts/flowAPI.js" defer></script>
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
 </body>
 

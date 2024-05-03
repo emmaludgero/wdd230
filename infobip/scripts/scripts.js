@@ -104,7 +104,7 @@ document.addEventListener('DOMContentLoaded', function () {
             var positionInput = document.getElementById('position').value;
             var regex = /^[a-zA-Z -]{7,}$/;
             if (!regex.test(positionInput)) {
-                alert('Please fill in the field with at least seven alphabetic characters, spaces, or hyphens.');
+                alert('Please fill "Job Position" with at least seven alphabetic characters, spaces, or hyphens.');
                 event.preventDefault(); // Impede o envio do formulário se a validação falhar
             }
         });

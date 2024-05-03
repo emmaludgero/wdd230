@@ -367,6 +367,10 @@ form label input:required:valid {
     display: block;
 }
 
+#thankyou {
+    font-style: italic;
+}
+
 /* <<<<<<<<<<<<<< End of Join Page >>>>>>>>>>>>>> */
 
 /* <<<<<<<<<<<<<< Start of Directory Page >>>>>>>>>>>>>> */
