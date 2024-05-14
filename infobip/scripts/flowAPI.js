@@ -1,8 +1,13 @@
 // Capturando o formulário pelo ID
+
+console.log("Entrei no flow")
 var formulario = document.getElementById("forms");
 console.log(formulario);
 // Adicionando um ouvinte de evento para o evento 'submit' do formulário
 formulario.addEventListener("submit", function (event) {
+
+    console.log("Entrei no addEventListener")
+
     // Evitando o comportamento padrão de enviar o formulário
     event.preventDefault();
 
@@ -68,9 +73,12 @@ formulario.addEventListener("submit", function (event) {
 
     $.ajax(settings).done(function (response) {
         console.log(response);
+        console.log(JSON.stringify(response));
+        formulario.submit();
     });
 
-    formulario.submit();
+
+
 });
 
 
