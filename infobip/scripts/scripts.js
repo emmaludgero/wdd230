@@ -52,43 +52,7 @@ document.addEventListener('DOMContentLoaded', function () {
         menuButton.classList.toggle('show');
     })
 
-    // Weather API
 
-    const currentTemp = document.getElementById("current-temp");
-    const weatherIcon = document.getElementById("weather-icon");
-    const captionDesc = document.querySelector("figcaption")
-
-    function displayResults(json) {
-        currentTemp.innerHTML = `${json.main.temp}°F`
-        const iconsrc = `https://openweathermap.org/img/w/${json.weather[0].icon}.png`
-        let description = json.weather[0].description;
-        weatherIcon.setAttribute('src', iconsrc);
-        weatherIcon.setAttribute('alt', description);
-        captionDesc.textContent = `${description}`
-    }
-
-    const url = "https://api.openweathermap.org/data/2.5/weather?lat=-25.44&lon=-49.27&units=imperial&appid=5a9bd3bf31db6f483c38d1f5f0309e6b"
-
-    async function apiFetch(url) {
-        try {
-            const response = await fetch(url);
-            console.log("Try ");
-            if (response.ok) {
-                const data = await response.json();
-                console.log("Data: ", JSON.stringify(data));
-                displayResults(data);
-            }
-            else {
-                throw Error(await response.text());
-                console.log("Error");
-            }
-        } catch (error) {
-            console.error('Error fetching data:', error);
-            console.log("Error ");
-        }
-    }
-
-    apiFetch(url);
 
     // Timestamp
 
@@ -96,47 +60,6 @@ document.addEventListener('DOMContentLoaded', function () {
 
         document.getElementById('timestamp').value = currentDateTime;
     });
-
-    // Validates pattern
-
-    window.onload = function () {
-        document.getElementById('forms').addEventListener('submit', function (event) {
-            var positionInput = document.getElementById('position').value;
-            var regex = /^[a-zA-Z -]{7,}$/;
-            if (!regex.test(positionInput)) {
-                alert('Please fill "Job Position" with at least seven alphabetic characters, spaces, or hyphens.');
-                event.preventDefault(); // Impede o envio do formulário se a validação falhar
-            }
-        });
-    };
-
-    // Last Visit
-
-    const msPerDay = 86400000;
-    const thisVisit = new Date();
-
-    // Phrases
-    const firstVisitMsg = "Welcome! Let us know if you have any questions";
-    const soonVisitMsg = "Back so soon! Awesome!";
-
-    let visitDate = localStorage.getItem("visitDate-ls");
-
-    let daysSinceVisit = visitDate ? (thisVisit - new Date(visitDate)) / msPerDay : 0;
-
-    if (daysSinceVisit !== 0) {
-
-        if (daysSinceVisit > 0 && daysSinceVisit < 1) {
-            document.querySelector("#visit-msg").textContent = soonVisitMsg;
-        } else if (daysSinceVisit > 1) {
-            document.querySelector("#visit-msg").textContent = `You last visited ${Math.floor(daysSinceVisit)} days ago`;
-
-        }
-    } else {
-        document.querySelector("#visit-msg").textContent = firstVisitMsg;
-    }
-
-    localStorage.setItem("visitDate-ls", thisVisit);
-
 
 
 
