@@ -1,67 +1,60 @@
 {
     "members": [
         {
-            "name": "Microsoft",
-            "address": "One Microsoft Way, Redmond, WA 98052-6399, USA",
-            "phone": "+1 (425) 882-8080",
-            "website": "https://www.microsoft.com",
+            "name": "Moments",
+            "address": "Maximize engagement with personalized messages on the best customer engagement solution",
+            "website": "https://www.infobip.com/moments",
             "image": "https://logosmarcas.net/wp-content/uploads/2020/09/Microsoft-Logo.png",
-            "membership_level": "Gold",
-            "other_info": "Microsoft Corporation is an American multinational technology company that develops, manufactures, licenses, supports, and sells computer software, consumer electronics, and personal computers."
+            "other_info": "Engagement at scale, on any channel, and throughout the entire customer journey. Maximize ROI with high-performing omnichannel marketing campaigns created with a code-free customer engagement solution."
         },
         {
-            "name": "Adobe",
-            "address": "345 Park Avenue, San Jose, California 95110-2704, USA",
-            "phone": "+1 (408) 536-6000",
-            "website": "https://www.adobe.com",
+            "name": "Conversations",
+            "address": "Provide the best service with a cloud contact center solution",
+            "website": "https://www.infobip.com/conversations",
             "image": "https://logosmarcas.net/wp-content/uploads/2020/07/Adobe-Logo.png",
-            "membership_level": "Silver",
-            "other_info": "Adobe Inc. is an American multinational computer software company headquartered in San Jose, California. It has historically focused upon the creation of multimedia and creativity software products, with a more recent foray into digital marketing software."
+            "other_info": "Drive efficiencies, provide a personalized customer experience, and empower agents to perform at their best with a cloud contact center solution that supports engagement on all the channels your customers use."
         },
         {
-            "name": "Google",
-            "address": "1600 Amphitheatre Parkway, Mountain View, California 94043, USA",
-            "phone": "+1 (650) 253-0000",
-            "website": "https://www.google.com",
+            "name": "Answers",
+            "address": "Build intelligent chatbots to engage, support, and generate leads",
+            "website": "https://www.infobip.com/answers",
             "image": "https://logospng.org/download/google/logo-google-4096.png",
-            "membership_level": "Bronze",
-            "other_info": "Google LLC is an American multinational technology company that specializes in Internet-related services and products, which include online advertising technologies, a search engine, cloud computing, software, and hardware."
+            "other_info": "Automate your customer support and reduce costs with a no-code virtual assistant that supports conversational journeys across your customers’ preferred channels via our omnichannel chatbot building platform."
         },
         {
-            "name": "Oracle",
-            "address": "500 Oracle Parkway, Redwood Shores, California 94065, USA",
-            "phone": "+1 (650) 506-7000",
-            "website": "https://www.oracle.com",
+            "name": "People CDP",
+            "address": "Enrich communication and simplify personalization to create powerful customer experiences",
+            "website": "https://www.infobip.com/people",
             "image": "https://logosmarcas.net/wp-content/uploads/2020/09/Oracle-Logo.png",
-            "membership_level": "Gold",
-            "other_info": "Oracle Corporation is an American multinational computer technology corporation headquartered in Redwood Shores, California. The company sells database software and technology, cloud engineered systems, and enterprise software products—particularly its own brands of database management systems."
+            "other_info": "Enable your marketing and support teams to create connected experiences with new data and insights."
         },
         {
-            "name": "Vocalcom",
-            "address": "20 rue des Jardins, 92600 Asnières-sur-Seine, France",
-            "phone": "+33 1 55 83 60 00",
-            "website": "https://www.vocalcom.com",
+            "name": "Infobip Authenticate",
+            "address": "Enhancing your 2FA solution with cutting-edge OTP delivery",
+            "website": "https://www.infobip.com/authentication",
             "image": "https://financesonline.com/uploads/2015/10/vocalcom-logo.png",
-            "membership_level": "Silver",
-            "other_info": "Vocalcom is a global provider of cloud-based contact center software solutions. Vocalcom's software helps organizations manage customer interactions across all communication channels."
+            "other_info": "Effortlessly verify your customers with Infobip Authenticate, our robust omnichannel solution that provides a fully automated, cost-effective way to authenticate your customers, with multistep failover that leaves no message undelivered."
         },
         {
-            "name": "Meta",
-            "address": "1 Hacker Way, Menlo Park, California 94025, USA",
-            "phone": "+1 (650) 543-4800",
-            "website": "https://about.meta.com",
+            "name": "Mobile Identity",
+            "address": "Fast and secure Mobile Identity verification",
+            "website": "https://www.infobip.com/mobile-identity",
             "image": "https://logosmarcas.net/wp-content/uploads/2021/11/Meta-Logo.png",
-            "membership_level": "Bronze",
-            "other_info": "Meta Platforms, Inc. (formerly Facebook, Inc.) is an American technology conglomerate that develops the Facebook social media platform, among other products. Meta is one of the world's most valuable companies and is considered one of the Big Tech technology companies, alongside Amazon, Apple, Google, and Microsoft."
+            "other_info": "Our leading cloud communications platform, best-in-class omnichannel security solutions, and global scale help telcos transform CX and secure the mobile ecosystem for their enterprise, small business, and consumer customers."
         },
         {
-            "name": "Telefónica",
-            "address": "Distrito Telefónica, Ronda de la Comunicación s/n, 28050 Madrid, Spain",
-            "phone": "+34 91 482 38 00",
-            "website": "https://www.telefonica.com",
+            "name": "CPaaS X",
+            "address": "Unlock your platform’s potential with CPaaS X",
+            "website": "https://www.infobip.com/cpaas-x",
             "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Telef%C3%B3nica_2021_logo.svg/1200px-Telef%C3%B3nica_2021_logo.svg.png",
-            "membership_level": "Gold",
-            "other_info": "Telefónica, S.A. is a Spanish multinational telecommunications company headquartered in Madrid, Spain. It is one of the largest telephone operators and mobile network providers in the world. Telefónica offers fixed and mobile telephony, broadband and subscription television, with operations in Europe, Asia, and the Americas."
+            "other_info": "Introducing the next generation of CPaaS (communications platform as a service)- CPaaS X, a modular API stack to help platforms scale exponentially with reduced engineering effort and greater operational efficiency."
+        },
+        {
+            "name": "Number Lookup",
+            "address": "Keep your data updated with Number Lookup",
+            "website": "https://www.infobip.com/number-lookup",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Telef%C3%B3nica_2021_logo.svg/1200px-Telef%C3%B3nica_2021_logo.svg.png",
+            "other_info": "Number Lookup checks against first-party numbering sources and provides real-time feedback, keeping your database clean while improving delivery rates."
         }
     ]
 }

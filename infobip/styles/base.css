@@ -423,8 +423,44 @@ form label input:required:valid {
 .directory-cards .btn {
     text-align: center;
     margin-bottom: var(--standardPX);
-    background-color: #fff;
+    background-color: var(--darkBlue);
+    color: var(--lightBlue);
+    margin: 30px;
+    margin-left: 0%;
+    box-shadow: 5px 5px 0px 0px rgba(36, 40, 45, 0.159);
 }
+
+@keyframes shake {
+
+    0%,
+    100% {
+        transform: translateX(0);
+    }
+
+    25% {
+        transform: translateX(-1px);
+    }
+
+    50% {
+        transform: translateX(1px);
+    }
+
+    75% {
+        transform: translateX(-1px);
+    }
+}
+
+#moving-button {
+    animation: shake 0.5s infinite;
+    animation-delay: 2s;
+}
+
+@keyframes pause {
+    0% {}
+
+    100% {}
+}
+
 
 #list-view {
     background-color: #fff;
@@ -457,4 +493,10 @@ footer a {
 footer h4 {
     font-size: small;
     font-weight: 500;
+}
+
+footer .btn {
+    background-color: var(--darkBlue);
+    color: var(--lightBlue);
+    margin: 0%;
 }

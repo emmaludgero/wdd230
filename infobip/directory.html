@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Chamber of Commerce</title>
+    <title>Products Page</title>
     <meta name="description" content="Emma Ludgero Directory Page">
     <meta name="author" content="Emma Ludgero">
     <meta property="og:title" content="Directory">
@@ -32,25 +32,48 @@
         <ul>
             <li><a href="index.html">Home</a></li>
             <li><a href="discover.html">Discover</a></li>
-            <li class="active"><a href="directory.html">Directory</a></li>
+            <li class="active"><a href="directory.html">Products</a></li>
             <li><a href="join.html">Join</a></li>
         </ul>
     </nav>
     <main>
-        <div class="directory-cards">
-            <h1>Members Directory</h1>
-            <button class="btn" id="grid-btn" onclick="changeClass()">Grid View</button>
-            <button class="btn" id="list-btn" onclick="changeClass()">List View</button>
 
-            <section id="members"></section>
+        <div class="directory-cards">
+            <h1>Products</h1>
+
+            <section id="members">
+                <div class="member-card">
+                    <h2>Infobip WhatsApp Flows</h2>
+                    <a href="https://api.whatsapp.com/send/?phone=447491163402&text&type=phone_number&app_absent=0"
+                        target="_blank">
+                        <button class="btn" type="button" id="moving-button">
+                            <img src="https://static.whatsapp.net/rsrc.php/v3/yJ/r/Qhrnh5evyPV.png" alt="WA logo">
+                            Infobip Studio Demo
+                        </button>
+                    </a>
+                    <h4>Experience the solution above 👆 <br>Boost performance by creating more integrated and
+                        personalized
+                        experiences for
+                        customers</h4>
+                    <p>From scheduling to registrations, WhatsApp Flows delivers results by making interactions with
+                        customers more streamlined and convenient.</p>
+
+                </div>
+            </section>
         </div>
 
     </main>
     <footer>
+        <a href="https://api.whatsapp.com/send/?phone=447491163402&text&type=phone_number&app_absent=0" target="_blank">
+            <button class="btn" type="button">
+                <img src="https://static.whatsapp.net/rsrc.php/v3/yJ/r/Qhrnh5evyPV.png" alt="WA logo"> Infobip Studio
+                Demo
+            </button>
+        </a>
         <p>📧 <a id="emailLink" href="emma.ludgero@gmail.com">Emma.Ludgero@gmail.com</a></p>
         <p>📍 Brazil <a id="flag"></a></p>
-        <p>📖 Chamber Project - WDD 230</p>
         <h4>Last Modification: <a id="lastModified"></a></h4>
+
     </footer>
     <script src="scripts/scripts.js"></script>
     <script src="scripts/member.js"></script>

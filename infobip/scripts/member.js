@@ -24,23 +24,19 @@ const displayMembers = (members) => {
         name.textContent = member.name;
         div.appendChild(name);
 
-        let image = document.createElement("img");
-        image.setAttribute("src", `${member.image}`);
-        image.setAttribute("alt", `${member.name} Logo`);
-        image.setAttribute("class", `companyLogos`);
-        div.appendChild(image);
+        // let image = document.createElement("img");
+        //image.setAttribute("src", `${member.image}`);
+        //image.setAttribute("alt", `${member.name} Logo`);
+        //image.setAttribute("class", `companyLogos`);
+        //div.appendChild(image);
 
-        let membershipLevel = document.createElement("h4");
-        membershipLevel.textContent = `Membership Level: ${member.membership_level}`;
-        div.appendChild(membershipLevel);
+
 
         let address = document.createElement("h4");
-        address.textContent = `Address: ${member.address}`;
+        address.textContent = `${member.address}`;
         div.appendChild(address);
 
-        let phone = document.createElement("h4");
-        phone.textContent = `Phone: ${member.phone}`;
-        div.appendChild(phone);
+
 
         let website = document.createElement("a");
         website.textContent = `${member.name} Website`;
