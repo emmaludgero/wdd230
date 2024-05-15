@@ -1,5 +1,5 @@
 const baseURL = "https://emmaludgero.github.io/wdd230/";
-const linksURL = "https://emmaludgero.github.io/wdd230/chamber/data/members.json";
+const linksURL = "https://emmaludgero.github.io/wdd230/infobip/data/members.json";
 
 async function getLinks(url) {
 
@@ -39,7 +39,7 @@ const displayMembers = (members) => {
 
 
         let website = document.createElement("a");
-        website.textContent = `${member.name} Website`;
+        website.textContent = `${member.name} Information`;
         website.setAttribute("href", member.website);
         div.appendChild(website);
 
