@@ -4,56 +4,56 @@
             "name": "Moments",
             "address": "Maximize engagement with personalized messages on the best customer engagement solution",
             "website": "https://www.infobip.com/moments",
-            "image": "https://logosmarcas.net/wp-content/uploads/2020/09/Microsoft-Logo.png",
+            "image": "https://infobip.sharepoint.com/sites/InfobipMarketing/SiteAssets/SitePages/Marketing-Hub-of-Hubs/moments_icon.png?csf=1&web=1&e=xWxdhv&isSPOFile=1&OR=Teams-HL&CT=1715857294219&clickparams=eyJBcHBOYW1lIjoiVGVhbXMtRGVza3RvcCIsIkFwcFZlcnNpb24iOiIyNy8yNDAzMjgyMTIwMCIsIkhhc0ZlZGVyYXRlZFVzZXIiOmZhbHNlfQ%3D%3D&cid=57c889ff-73b3-49ff-a4d4-901bf2434539",
             "other_info": "Engagement at scale, on any channel, and throughout the entire customer journey. Maximize ROI with high-performing omnichannel marketing campaigns created with a code-free customer engagement solution."
         },
         {
             "name": "Conversations",
             "address": "Provide the best service with a cloud contact center solution",
             "website": "https://www.infobip.com/conversations",
-            "image": "https://logosmarcas.net/wp-content/uploads/2020/07/Adobe-Logo.png",
+            "image": "https://infobip.sharepoint.com/sites/InfobipMarketing/SiteAssets/SitePages/Marketing-Hub-of-Hubs/conversations_icon.png?csf=1&web=1&e=zsDU5W&isSPOFile=1&OR=Teams-HL&CT=1715857287322&clickparams=eyJBcHBOYW1lIjoiVGVhbXMtRGVza3RvcCIsIkFwcFZlcnNpb24iOiIyNy8yNDAzMjgyMTIwMCIsIkhhc0ZlZGVyYXRlZFVzZXIiOmZhbHNlfQ%3D%3D&cid=363001a0-5387-4830-a578-defda86d8924",
             "other_info": "Drive efficiencies, provide a personalized customer experience, and empower agents to perform at their best with a cloud contact center solution that supports engagement on all the channels your customers use."
         },
         {
             "name": "Answers",
             "address": "Build intelligent chatbots to engage, support, and generate leads",
             "website": "https://www.infobip.com/answers",
-            "image": "https://logospng.org/download/google/logo-google-4096.png",
+            "image": "https://infobip.sharepoint.com/sites/InfobipMarketing/SiteAssets/SitePages/Marketing-Hub-of-Hubs/answers_icon.png?csf=1&web=1&e=FTWf33&isSPOFile=1&OR=Teams-HL&CT=1715857296006&clickparams=eyJBcHBOYW1lIjoiVGVhbXMtRGVza3RvcCIsIkFwcFZlcnNpb24iOiIyNy8yNDAzMjgyMTIwMCIsIkhhc0ZlZGVyYXRlZFVzZXIiOmZhbHNlfQ%3D%3D&cid=8fe064bf-2714-4957-acac-db49df827ee6",
             "other_info": "Automate your customer support and reduce costs with a no-code virtual assistant that supports conversational journeys across your customers’ preferred channels via our omnichannel chatbot building platform."
         },
         {
             "name": "People CDP",
             "address": "Enrich communication and simplify personalization to create powerful customer experiences",
             "website": "https://www.infobip.com/people",
-            "image": "https://logosmarcas.net/wp-content/uploads/2020/09/Oracle-Logo.png",
+            "image": "",
             "other_info": "Enable your marketing and support teams to create connected experiences with new data and insights."
         },
         {
             "name": "Infobip Authenticate",
             "address": "Enhancing your 2FA solution with cutting-edge OTP delivery",
             "website": "https://www.infobip.com/authentication",
-            "image": "https://financesonline.com/uploads/2015/10/vocalcom-logo.png",
+            "image": "",
             "other_info": "Effortlessly verify your customers with Infobip Authenticate, our robust omnichannel solution that provides a fully automated, cost-effective way to authenticate your customers, with multistep failover that leaves no message undelivered."
         },
         {
             "name": "Mobile Identity",
             "address": "Fast and secure Mobile Identity verification",
             "website": "https://www.infobip.com/mobile-identity",
-            "image": "https://logosmarcas.net/wp-content/uploads/2021/11/Meta-Logo.png",
+            "image": "",
             "other_info": "Our leading cloud communications platform, best-in-class omnichannel security solutions, and global scale help telcos transform CX and secure the mobile ecosystem for their enterprise, small business, and consumer customers."
         },
         {
             "name": "CPaaS X",
             "address": "Unlock your platform’s potential with CPaaS X",
             "website": "https://www.infobip.com/cpaas-x",
-            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Telef%C3%B3nica_2021_logo.svg/1200px-Telef%C3%B3nica_2021_logo.svg.png",
+            "image": "",
             "other_info": "Introducing the next generation of CPaaS (communications platform as a service)- CPaaS X, a modular API stack to help platforms scale exponentially with reduced engineering effort and greater operational efficiency."
         },
         {
             "name": "Number Lookup",
             "address": "Keep your data updated with Number Lookup",
             "website": "https://www.infobip.com/number-lookup",
-            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Telef%C3%B3nica_2021_logo.svg/1200px-Telef%C3%B3nica_2021_logo.svg.png",
+            "image": "",
             "other_info": "Number Lookup checks against first-party numbering sources and provides real-time feedback, keeping your database clean while improving delivery rates."
         }
     ]

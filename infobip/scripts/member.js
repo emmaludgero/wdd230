@@ -24,11 +24,11 @@ const displayMembers = (members) => {
         name.textContent = member.name;
         div.appendChild(name);
 
-        // let image = document.createElement("img");
-        //image.setAttribute("src", `${member.image}`);
-        //image.setAttribute("alt", `${member.name} Logo`);
-        //image.setAttribute("class", `companyLogos`);
-        //div.appendChild(image);
+        let image = document.createElement("img");
+        image.setAttribute("src", `${member.image}`);
+        image.setAttribute("alt", `${member.name} Logo`);
+        image.setAttribute("class", `companyLogos`);
+        div.appendChild(image);
 
 
 
